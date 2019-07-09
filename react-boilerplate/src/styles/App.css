@@ -2,3 +2,24 @@ h1 {
     color: #27aedb;
     text-align: center;
 }
+
+table {
+    font-size: 31px;
+    width: 100%;
+    text-align: center;
+}
+
+table td {
+    padding: 7px 11px;
+    cursor: pointer;
+    transition: all 0.7s;
+}
+
+.calc {
+    width: 640px;
+    margin: 0 auto;
+}
+
+table td:hover {
+    background: cyan;
+}

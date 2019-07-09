@@ -1,12 +1,9 @@
 from django.contrib import admin
 from django.urls import path, include
 from rest_framework import routers
-from .views import UserViewSet
-
-router = routers.DefaultRouter()
-router.register('users', UserViewSet)
-
+from . import views
 urlpatterns = [         
-    path('', include(router.urls)),
+    path('',views.index, name='index' ),
+    path('get', views.GetPussy.as_view())
 ]
 
