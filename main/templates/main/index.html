@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    {% load static %}
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>React Boilerplate</title>
+</head>
+
+<body>
+    <div id="root">
+    {% block content %}
+        <noscript> Turn on JavaScript</noscript>
+	<script src="{% static 'main/js/index_bundle.js' %}"></script>
+    {% endblock %}
+      
+    </div>
+
+</html>
