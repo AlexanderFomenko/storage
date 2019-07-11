@@ -7,17 +7,14 @@ table {
     font-size: 31px;
     width: 100%;
     text-align: center;
+    border: 4px double black;
 }
 
 table td {
     padding: 7px 11px;
     cursor: pointer;
     transition: all 0.7s;
-}
-
-.calc {
-    width: 640px;
-    margin: 0 auto;
+    border: 4px groove black;
 }
 
 table td:hover {
